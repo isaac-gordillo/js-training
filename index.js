@@ -1,10 +1,14 @@
 const API_BASE_URL = 'http://localhost:3001'
 const POKEMONS_URL = 'pokemons';
+const COUNTRIES_URL = 'countries';
 
 async function main() {
     const pokemons = await fetch(`${API_BASE_URL}/${POKEMONS_URL}`).then(res => res.json());
     const pokemonTable = createTable(pokemons);
-    document.getElementById('pokemon-table').innerHTML = pokemonTable;
+
+    const countries = await fetch(`${API_BASE_URL}/${COUNTRIES_URL}`).then(res => res.json());
+    const countryTable = createTable(countries);
+    document.getElementById('pokemon-table').innerHTML = pokemonTable + countryTable;
 }
 
 function createPokemonTable(pokemons) {
