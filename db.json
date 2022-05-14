@@ -1,0 +1,46 @@
+{
+  "pokemons": [
+    {
+      "id": 1,
+      "name": "Pikachu",
+      "type": "Electric",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/025.png",
+      "description": "Pikachu's lightning bolt is said to never miss."
+    },
+    {
+      "id": 2,
+      "name": "Bulbasaur",
+      "type": "Grass",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/001.png",
+      "description": "Bulbasaur can be seen napping in bright sunlight. There is a seed on its back. By soaking up the sun's rays, the seed grows progressively larger."
+    },
+    {
+      "id": 3,
+      "name": "Charmander",
+      "type": "Fire",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/004.png",
+      "description": "The flame that burns at the tip of its tail is an indication of its emotions. The flame wavers when Charmander is enjoying itself. If the Pokémon becomes enraged, the flame burns fiercely."
+    },
+    {
+      "id": 4,
+      "name": "Squirtle",
+      "type": "Water",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/007.png",
+      "description": "Squirtle's shell is not merely used for protection. The shell's rounded shape and the grooves on its surface help minimize resistance in water, enabling this Pokémon to swim at high speeds."
+    }
+  ],
+  "types": [
+    {
+      "name": "Electric"
+    },
+    {
+      "name": "Grass"
+    },
+    {
+      "name": "Fire"
+    },
+    {
+      "name": "Water"
+    }
+  ]
+}
