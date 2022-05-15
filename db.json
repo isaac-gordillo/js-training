@@ -76,5 +76,22 @@
             "name": "Italy",
             "image": "https://upload.wikimedia.org/wikipedia/en/thumb/0/03/Flag_of_Italy.svg/1280px-Flag_of_Italy.svg.png"
         }
+    ],
+    "todos": [
+        {
+            "id": 1,
+            "titulo": "Tarea 1",
+            "prioridad": "normal"
+        },
+        {
+            "id": 2,
+            "titulo": "Tarea 2",
+            "prioridad":"intermedia"
+        },
+        {
+            "id": 3,
+            "titulo": "Tarea 3",
+            "prioridad": "urgente"
+        }        
     ]
 }
